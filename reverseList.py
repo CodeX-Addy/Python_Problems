@@ -29,3 +29,11 @@ size=5
 print('Original list: ',arr)
 print("Reversed list: ",list_reverse(arr,size))
 
+# The above code can also be implemented using reverse function in python
+lst = [10, 11, 12, 13, 14, 15]
+lst.reverse()
+print("Using reverse() ", lst)
+
+print("Using reversed() ", list(reversed(lst)))
+
+
