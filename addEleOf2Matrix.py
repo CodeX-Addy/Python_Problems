@@ -6,4 +6,4 @@ print(A)
 print(B)
 
 print("Addition of two matrix")
-print(np.add(A, B))#Adding the elements
+print(np.add(A, B))#Adding the elements of matrices
