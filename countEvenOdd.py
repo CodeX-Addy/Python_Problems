@@ -4,8 +4,6 @@ even_count, odd_count = 0, 0
 
 # iterating each number in list
 for num in list1:
-
-	# checking condition
 	if num % 2 == 0:
 		even_count += 1
 
@@ -14,3 +12,6 @@ for num in list1:
 
 print("Even numbers in the list: ", even_count)
 print("Odd numbers in the list: ", odd_count)
+
+# Even numbers in the list:  3
+# Odd numbers in the list:  4
