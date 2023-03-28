@@ -1,15 +1,11 @@
-# create class for stack
 class Stack:
 
-	# create empty list
 	def __init__(self):
 		self.Elements = []
 		
-	# push() for insert an element
 	def push(self, value):
 		self.Elements.append(value)
 	
-	# pop() for remove an element
 	def pop(self):
 		return self.Elements.pop()
 	
@@ -22,7 +18,6 @@ class Stack:
 		for value in reversed(self.Elements):
 			print(value)
 
-# Insert_Bottom() insert value at bottom
 def BottomInsert(s, value):
 
 	# check the stack is empty or not
@@ -33,13 +28,12 @@ def BottomInsert(s, value):
 		s.push(value)
 		
 	# if stack is not empty then execute
-	# else block
 	else:
 		popped = s.pop()
 		BottomInsert(s, value)
 		s.push(popped)
 
-# Reverse() reverse the stack
+# Reverse() reversing the stack
 def Reverse(s):
 	if s.empty():
 		pass
@@ -49,7 +43,6 @@ def Reverse(s):
 		BottomInsert(s, popped)
 
 
-# create object of stack class
 stk = Stack()
 
 stk.push(1)
