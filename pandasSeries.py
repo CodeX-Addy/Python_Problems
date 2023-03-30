@@ -1,4 +1,4 @@
-# importing Pandas & numpy
+# Importing Pandas & numpy
 import pandas as pd
 import numpy as np
 
