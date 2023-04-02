@@ -44,7 +44,7 @@ class Stack:
 		return self.head.data
 
 
-# Function to return the size of the stack
+# Returning the size of the stack
 	def size(self):
 
 		temp = self.head
