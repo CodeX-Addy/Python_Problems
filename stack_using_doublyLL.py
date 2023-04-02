@@ -5,7 +5,6 @@ class Node:
 		self.next = None # Initialize next as null
 		self.prev = None # Initialize prev as null	
 		
-# Stack class contains a Node object
 class Stack:
 	def __init__(self):
 		self.head = None
@@ -39,8 +38,7 @@ class Stack:
 
 
 
-
-# Function to return top element in the stack
+# Returning top element in the stack
 	def top(self):
 
 		return self.head.data
