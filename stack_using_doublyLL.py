@@ -64,7 +64,7 @@ class Stack:
 		return False
 			
 
-# Function to print the stack
+# Printing the stack
 	def printstack(self):
 		
 		print("stack elements are:")
