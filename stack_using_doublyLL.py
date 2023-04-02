@@ -76,7 +76,7 @@ class Stack:
 		
 if __name__=='__main__':
 
-# Start with the empty stack
+# Starting with the empty stack
 stack = Stack()
 
 print("Stack operations using Doubly LinkedList")
@@ -88,13 +88,13 @@ stack.push(6)
 
 stack.push(7)
 
-# Print the stack
+# Printing the stack
 stack.printstack()
 
-# Print the top element
+# Printing the top element
 print("\nTop element is ", stack.top())
 
-# Print the stack size
+# Printing the size of stack
 print("Size of the stack is ", stack.size())
 
 # pop the top element
