@@ -34,7 +34,7 @@ workQueue = queue.Queue(10)
 threads = []
 threadID = 1
 
-# Create new threads
+# Creating new threads
 for thread_name in thread_list:
 thread = sample_Thread(threadID, thread_name, workQueue)
 thread.start()
@@ -52,7 +52,7 @@ queueLock.release()
 while not workQueue.empty():
 pass
 
-# Notify threads it's time to exit
+# Notify threads that it's time to exit
 thread_exit_Flag = 1
 
 # Wait for all threads to complete
