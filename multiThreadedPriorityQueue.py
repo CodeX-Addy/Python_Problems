@@ -15,7 +15,7 @@ def run(self):
 	process_data(self.name, self.q)
 	print ("Exiting " + self.name)
 
-# helper function to process data		
+# Process data		
 def process_data(threadName, q):
 while not thread_exit_Flag:
 	queueLock.acquire()
