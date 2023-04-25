@@ -1,7 +1,5 @@
-# A complete working Python program to demonstrate all
 # Queue operations using doubly linked list
 
-# Node class
 class Node:
 
 # Function to initialise the node object
@@ -11,7 +9,6 @@ class Node:
 		self.prev = None # Initialize prev as null
 		
 		
-# Queue class contains a Node object
 class Queue:
 
 	# Function to initialize head
@@ -20,7 +17,7 @@ class Queue:
 		self.last=None
 		
 
-# Function to add an element data in the Queue
+# Function to add an element data in the queue
 	def enqueue(self, data):
 		if self.last is None:
 			self.head =Node(data)
