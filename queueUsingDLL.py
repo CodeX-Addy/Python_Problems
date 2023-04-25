@@ -76,11 +76,10 @@ class Queue:
 			print(temp.data,end="->")
 			temp=temp.next
 	
-		
-# Code execution starts here		
+				
 if __name__=='__main__':
 
-# Start with the empty queue
+# Starting with the empty queue
 queue = Queue()
 
 print("Queue operations using doubly linked list")
@@ -97,22 +96,18 @@ queue.enqueue(6)
 # Insert 7 at the end. So queue becomes 4->5->6->7->None
 queue.enqueue(7)
 
-# Print the queue
+# Printing the queue
 queue.printqueue()
 
-# Print the first element
 print("\nfirst element is ",queue.first())
 
-# Print the queue size
 print("Size of the queue is ",queue.size())
 
-# remove the first element
 queue.dequeue()
 
 # remove the first element
 queue.dequeue()
 
-# first two elements are removed
 # Print the queue
 print("After applying dequeue() two times")
 queue.printqueue()
