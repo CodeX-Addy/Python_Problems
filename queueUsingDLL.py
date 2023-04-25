@@ -108,7 +108,7 @@ queue.dequeue()
 # remove the first element
 queue.dequeue()
 
-# Print the queue
+# Printing the queue
 print("After applying dequeue() two times")
 queue.printqueue()
 
