@@ -17,5 +17,5 @@ def next_prime(num):
         next_num += 1
 
 # Example usage
-print(next_prime(2100290130013
-)) # Output: 23
+print(next_prime(2100290130013)) 
+#Output : 2100290130073
