@@ -44,3 +44,5 @@ if __name__ == "__main__":
 	node1.next = node2
 	node2.next = node3
 	print(ll)
+
+#Output:-[10,15,20]
