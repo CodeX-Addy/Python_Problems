@@ -1,6 +1,5 @@
 # Python program to solve N Queen
-# Problem using backtracking
-
+#Can be solved using backtracking
 global N
 N = 4
 
@@ -10,13 +9,6 @@ def printSolution(board):
 			print (board[i][j],end=' ')
 		print()
 
-
-# A utility function to check if a queen can
-# be placed on board[row][col]. Note that this
-# function is called when "col" queens are
-# already placed in columns from 0 to col -1.
-# So we need to check only left side for
-# attacking queens
 def isSafe(board, row, col):
 
 	# Check this row on left side
