@@ -1,5 +1,5 @@
 # Python program to solve N Queen
-#Can be solved using backtracking
+             #Can be solved using backtracking
 global N
 N = 4
 
@@ -60,7 +60,4 @@ def solveNQ():
 	printSolution(board)
 	return True
 
-# driver program to test above function
 solveNQ()
-
-# This code is contributed by Divyanshu Mehta
