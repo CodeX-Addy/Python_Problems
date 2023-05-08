@@ -51,18 +51,9 @@ def solveNQUtil(board, col):
 			# queen from board[i][col]
 			board[i][col] = 0
 
-	# if the queen can not be placed in any row in
-	# this column col then return false
 	return False
 
-# This function solves the N Queen problem using
-# Backtracking. It mainly uses solveNQUtil() to
-# solve the problem. It returns false if queens
-# cannot be placed, otherwise return true and
-# placement of queens in the form of 1s.
-# note that there may be more than one
-# solutions, this function prints one of the
-# feasible solutions.
+
 def solveNQ():
 	board = [ [0, 0, 0, 0],
 			[0, 0, 0, 0],
