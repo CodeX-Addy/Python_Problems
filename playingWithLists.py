@@ -19,4 +19,10 @@ list1.append(2)
 print(list1)
 #Output:-[2, 3, 4, 2]
 
+#Pop function
+list1 = [2,3,4]
+list1.pop(0)
+print(list1)
+#Output:-[3,4]
+
 
