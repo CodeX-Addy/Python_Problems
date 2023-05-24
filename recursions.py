@@ -17,3 +17,6 @@ def factorial(x):
         
 a = int(input("Enter your number:"))
 print(factorial(a))
+
+#Printing nth term of fibonacci sequence
+
