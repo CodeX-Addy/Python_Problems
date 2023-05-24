@@ -19,4 +19,14 @@ a = int(input("Enter your number:"))
 print(factorial(a))
 
 #Printing nth term of fibonacci sequence
+def fibo(num):
+    #Base case 
+    if(num == 0):
+        return 0
+    if(num == 1):
+        return 1
+    else:
+        return fibo(num-1) + fibo(num-2)
+        #Gives u the number present on the nth term
+print(fibo(10))
 
