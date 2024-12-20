@@ -17,4 +17,4 @@ def palindrome(a):
              
         else:
             flag = 1
-            break;
+            break
